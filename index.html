@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a1614" />
+  <title>Marketing Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Outfit:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="ambiance" aria-hidden="true">
+    <span class="ambiance__glow ambiance__glow--a"></span>
+    <span class="ambiance__glow ambiance__glow--b"></span>
+    <span class="ambiance__glow ambiance__glow--c"></span>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="logo" href="#top">mkt<span>.</span>folio</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#certs">Certs</a>
+      <a href="#connect" class="nav-cta">Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal" data-reveal>Marketing · Brand · Growth</p>
+          <h1 class="hero__title reveal" data-reveal>
+            <span class="hero__title-line">Stories that</span>
+            <span class="hero__title-line hero__title-line--accent">move markets.</span>
+          </h1>
+          <p class="hero__lede reveal" data-reveal>
+            I turn audience insight into campaigns people remember—strategy first, creative always, results on repeat.
+          </p>
+          <div class="hero__actions reveal" data-reveal>
+            <a class="btn btn--primary" href="#work">View selected work</a>
+            <a class="btn btn--ghost" href="#connect">Let’s talk</a>
+          </div>
+        </div>
+        <figure class="hero__visual reveal reveal--delay" data-reveal>
+          <div class="hero__frame">
+            <img
+              src="images/hero.jpg"
+              alt="Creative team collaborating around a table with laptops"
+              width="1400"
+              height="1000"
+              decoding="async"
+              fetchpriority="high"
+              loading="eager"
+            />
+          </div>
+          <figcaption class="hero__caption">Strategy workshop · NYC</figcaption>
+        </figure>
+      </div>
+      <div class="hero__marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Brand strategy</span>
+          <span>Social &amp; content</span>
+          <span>Influencer</span>
+          <span>SEO &amp; copy</span>
+          <span>Virtual events</span>
+          <span>Brand strategy</span>
+          <span>Social &amp; content</span>
+          <span>Influencer</span>
+          <span>SEO &amp; copy</span>
+          <span>Virtual events</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section__inner about__grid">
+        <div class="about__image reveal" data-reveal>
+          <img
+            src="images/about.jpg"
+            alt="Portrait of a marketing professional smiling"
+            width="1000"
+            height="1250"
+            decoding="async"
+            loading="lazy"
+          />
+          <div class="about__badge">Open to roles · Hybrid / Remote</div>
+        </div>
+        <div class="about__copy">
+          <h2 class="section__title reveal" data-reveal>About me</h2>
+          <p class="reveal" data-reveal>
+            I’m a marketer who loves the overlap between <em>data</em> and <em>story</em>—positioning products,
+            shaping narratives, and building channels that feel human. I’ve led launches, grown communities,
+            and partnered with creators to make brands impossible to scroll past.
+          </p>
+          <p class="reveal" data-reveal>
+            Outside of work you’ll find me hunting for great coffee, testing hooks in the wild, and
+            collecting references from art, fashion, and pop culture that eventually show up in decks.
+          </p>
+          <ul class="about__highlights reveal" data-reveal>
+            <li><strong>Focus</strong> Go-to-market, brand voice, performance storytelling</li>
+            <li><strong>Tools</strong> HubSpot, Semrush, Meta Ads, Notion, Figma</li>
+            <li><strong>Education</strong> Communications &amp; consumer behavior</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section__inner skills__shell">
+        <div class="skills__grid">
+          <figure class="skills__visual reveal" data-reveal>
+            <img
+              src="images/skills.jpg"
+              alt="Marketers collaborating at a whiteboard"
+              width="1200"
+              height="1000"
+              decoding="async"
+              loading="lazy"
+            />
+          </figure>
+          <div class="skills__content">
+            <h2 class="section__title reveal" data-reveal>What I do best</h2>
+            <p class="section__lede reveal" data-reveal>Tags clients actually use in kickoff docs.</p>
+            <div class="skill-cloud reveal" data-reveal>
+              <span class="pill">Brand strategy</span>
+              <span class="pill pill--lg">Social media</span>
+              <span class="pill">Influencer marketing</span>
+              <span class="pill">Virtual events</span>
+              <span class="pill pill--lg">SEO &amp; copywriting</span>
+              <span class="pill">Campaign analytics</span>
+              <span class="pill">Positioning</span>
+              <span class="pill pill--lg">Creative direction</span>
+              <span class="pill">UGC programs</span>
+              <span class="pill">Competitive research</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section__inner">
+        <div class="work__header">
+          <h2 class="section__title reveal" data-reveal>My work</h2>
+          <p class="section__lede reveal" data-reveal>
+            A mix of strategy decks, campaigns, and experiments—each built on insight, shipped with craft.
+          </p>
+        </div>
+
+        <figure class="work__banner reveal" data-reveal>
+          <div class="work__banner-chrome">
+            <div class="work__banner-frame">
+              <img
+                src="images/work-banner.jpg"
+                alt="Team reviewing campaign creative on a large monitor"
+                width="1600"
+                height="900"
+                decoding="async"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <figcaption class="work__banner-caption">Campaign reviews · insights to launch</figcaption>
+        </figure>
+
+        <div class="work-filters reveal" data-reveal role="tablist" aria-label="Filter projects">
+          <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button type="button" class="filter-btn" data-filter="strategy" role="tab" aria-selected="false">Brand strategy</button>
+          <button type="button" class="filter-btn" data-filter="social" role="tab" aria-selected="false">Social</button>
+          <button type="button" class="filter-btn" data-filter="events" role="tab" aria-selected="false">Virtual events</button>
+          <button type="button" class="filter-btn" data-filter="growth" role="tab" aria-selected="false">SEO &amp; growth</button>
+        </div>
+
+        <div class="work-grid" id="work-grid">
+          <article class="work-card" data-category="strategy">
+            <div class="work-card__media">
+              <img src="images/work-01.jpg" alt="Abstract brand moodboard colors" loading="lazy" width="1200" height="800" decoding="async" />
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__tag">Brand strategy</span>
+              <h3>Collab pitch: artist × beauty</h3>
+              <p>Mock partnership framework with audience overlap analysis, tiered rollout, and visual concepts.</p>
+              <a href="#" class="text-link">View case summary</a>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="strategy">
+            <div class="work-card__media">
+              <img src="images/work-02.jpg" alt="Modern office lounge" loading="lazy" width="1200" height="800" decoding="async" />
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__tag">Brand strategy</span>
+              <h3>Hospitality concept deck</h3>
+              <p>Positioning, naming territories, and guest journey for a fictional boutique hotel &amp; bar.</p>
+              <a href="#" class="text-link">See positioning</a>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="events">
+            <div class="work-card__media">
+              <img src="images/work-03.jpg" alt="Person presenting at a virtual event" loading="lazy" width="1200" height="800" decoding="async" />
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__tag">Virtual events</span>
+              <h3>Nostalgia marketing lab</h3>
+              <p>End-to-end promotion: landing page, ad creative, and live session with below-benchmark CPC.</p>
+              <a href="#" class="text-link">Campaign stats</a>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="growth">
+            <div class="work-card__media">
+              <img src="images/work-04.jpg" alt="Analytics dashboard on laptop" loading="lazy" width="1200" height="800" decoding="async" />
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__tag">SEO &amp; copy</span>
+              <h3>Long-tail content sprint</h3>
+              <p>Keyword map + editorial calendar; one flagship post designed to compound organic reach.</p>
+              <a href="#" class="text-link">Read outline</a>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="social">
+            <div class="work-card__media">
+              <img src="images/work-05.jpg" alt="Phone showing social media feed" loading="lazy" width="1200" height="800" decoding="async" />
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__tag">Influencer</span>
+              <h3>Micro-creator UGC loop</h3>
+              <p>Outreach sequences, briefs, and engagement scoring for 15+ creators in a product seeding wave.</p>
+              <a href="#" class="text-link">Guidelines PDF</a>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="social">
+            <div class="work-card__media">
+              <img src="images/work-06.jpg" alt="Colorful social content flatlay" loading="lazy" width="1200" height="800" decoding="async" />
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__tag">Social media</span>
+              <h3>Feed refresh &amp; moodboard</h3>
+              <p>Competitive teardown distilled into a visual system and 30-day content experiment.</p>
+              <a href="#" class="text-link">Moodboard</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats">
+      <div class="stats__backdrop" aria-hidden="true">
+        <img
+          src="images/stats-bg.jpg"
+          alt=""
+          width="2000"
+          height="1100"
+          decoding="async"
+          loading="lazy"
+        />
+      </div>
+      <div class="section__inner stats__inner">
+        <div class="stats__grid reveal" data-reveal>
+          <div class="stat">
+            <div class="stat__thumb">
+              <img src="images/stat-01.jpg" alt="" width="400" height="400" decoding="async" loading="lazy" />
+            </div>
+            <span class="stat__value">$0.59</span>
+            <span class="stat__label">Example CPC on a promoted event</span>
+          </div>
+          <div class="stat">
+            <div class="stat__thumb">
+              <img src="images/stat-02.jpg" alt="" width="400" height="400" decoding="async" loading="lazy" />
+            </div>
+            <span class="stat__value">19.7%</span>
+            <span class="stat__label">Landing page conversion (sample campaign)</span>
+          </div>
+          <div class="stat">
+            <div class="stat__thumb">
+              <img src="images/stat-03.jpg" alt="" width="400" height="400" decoding="async" loading="lazy" />
+            </div>
+            <span class="stat__value">15+</span>
+            <span class="stat__label">Creators activated in one UGC wave</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certs" id="certs">
+      <div class="section__inner certs__layout">
+        <div class="certs__intro">
+          <figure class="certs__photo reveal" data-reveal>
+            <img
+              src="images/certs.jpg"
+              alt="Open notebook and pen on a desk"
+              width="1200"
+              height="850"
+              decoding="async"
+              loading="lazy"
+            />
+          </figure>
+          <h2 class="section__title reveal" data-reveal>Skills &amp; certifications</h2>
+          <p class="section__lede reveal" data-reveal>Always leveling up—here’s what’s on the résumé today.</p>
+        </div>
+        <ul class="cert-list reveal" data-reveal>
+          <li>
+            <span class="cert-list__name">Advanced Digital Marketing</span>
+            <span class="cert-list__meta">Program certificate</span>
+          </li>
+          <li>
+            <span class="cert-list__name">SEO Toolkit fundamentals</span>
+            <span class="cert-list__meta">Semrush Academy</span>
+          </li>
+          <li>
+            <span class="cert-list__name">Marketing analysis in practice</span>
+            <span class="cert-list__meta">Semrush Academy</span>
+          </li>
+          <li>
+            <span class="cert-list__name">HubSpot inbound</span>
+            <span class="cert-list__meta">HubSpot Academy</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section connect" id="connect">
+      <div class="section__inner connect__grid">
+        <div class="connect__visual reveal" data-reveal>
+          <img
+            src="images/connect.jpg"
+            alt="Team high five in office"
+            width="1200"
+            height="900"
+            decoding="async"
+            loading="lazy"
+          />
+        </div>
+        <div class="connect__panel">
+          <p class="eyebrow reveal" data-reveal>Connect</p>
+          <h2 class="connect__title reveal" data-reveal>Let’s build something <em>unignorable.</em></h2>
+          <p class="reveal" data-reveal>
+            Tell me about your brand, your north-star metric, and the story you wish more people knew.
+          </p>
+          <p class="connect__location reveal" data-reveal><span class="connect__location-label">Based in</span> New York, NY</p>
+          <div class="connect__links reveal" data-reveal>
+            <a
+              class="connect-link connect-link--linkedin"
+              href="https://www.linkedin.com/in/example-marketer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="connect-link__label">LinkedIn</span>
+              <span class="connect-link__value">linkedin.com/in/example-marketer</span>
+            </a>
+            <a class="connect-link connect-link--email" href="mailto:marketer.example@email.com">
+              <span class="connect-link__label">Email</span>
+              <span class="connect-link__value">marketer.example@email.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> · Built with HTML, CSS &amp; JS · Replace photos in the images folder with your own work.</p>
+    <a href="#top" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
